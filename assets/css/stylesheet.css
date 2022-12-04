@@ -1,0 +1,45 @@
+/* Universal Selector */
+* {
+    font-family: "Audiowide", sans-serif;
+    color:peru;
+}
+
+header{
+    background-color: indianred;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    position:fixed;
+}
+
+/* Element Selectors */
+body{
+    background-color:navajowhite; 
+    position: absolute;
+}
+img {
+    max-width: 50%;
+    border-radius: 15px; 
+}    
+figcaption{
+    font-style: italic;
+    font-size: x-small;
+}
+section {
+    background-color:saddlebrown;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+}
+/* Class & ID Selectors */
+#menu-bar {
+    
+}
+
+.content{
+    text-align: center;
+    margin-top: 100px;
+}
+footer{
+    text-align: center;
+}

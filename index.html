@@ -5,22 +5,55 @@
   <!-- HTML head -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Landing Page</title>
-
-  <!-- Link the CSS stylesheet here -->
+  <title>My Dev Portfolio</title>
+<link rel="stylesheet" href="./assets/css/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+  
+<!-- Link the CSS stylesheet here -->
 </head>
 
 <body>
-  <!-- Header, Navigation w/ links -->
-
+  <header> 
+    <section id="menu-bar"> 
+  <a href="coming soon">About Me</a>
+  <a href="https://github.com/Ashmo91388">Portfolio</a>
+  <a href="#reach-out">Contact</a>
+    </section>
+  </header>
+  <!--< Header, Navigation w/ links -->
+<p>
+  <div class="content">
+  <h1> My Dev Portfolio</h1>
+  <img src="https://images.unsplash.com/photo-1510843572979-e4b9e790fdd7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1520&q=80" alt="retro Macintosh computer">  
+<figcaption>photo of retro Macintosh computer</figcaption>
+</div>
+</p>
   <!-- Main content -->
   <!-- (title, image/figure, image/figure caption) -->
-
+<section class="contact_me">
+  <h2 id="reach-out"> Reach Out!</h2>
+  <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+    <label for="Name" class="fcf-label">Your name</label>
+    <div class="fcf-input-group">
+        <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+    </div>
+<div class="fcf-form-group">
+    <label for="Email" class="fcf-label">Your email address</label>
+    <div class="fcf-input-group">
+        <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+    </div>
+    <div class="fcf-form-group">
+      <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+  </div>
+</section>
   <!-- Contact section -->
   <!-- (section header) -->
   <!-- (contact form w/ inputs & submit button) -->
 
   <!-- Footer -->
+  <footer>
+   <h3> <span> &#169;</span> My Dev Portfolio mini project</h3>
+  </footer>
 </body>
 
 </html>
